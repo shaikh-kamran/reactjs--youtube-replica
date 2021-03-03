@@ -1,0 +1,58 @@
+.Header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.logoArea {
+    width: 25%;
+}
+
+.searchBarArea {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.searchInput {
+    width: 80%;
+}
+
+.searchIcon {
+    cursor: pointer;
+    background-color: #ccc;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchMic {
+    cursor: pointer;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightMenu {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo {
+    height: 20px;
+}
+
+.searchInput {}
+
+.rightMenuIcon {
+    margin-right: 30px;
+    cursor: pointer;
+}

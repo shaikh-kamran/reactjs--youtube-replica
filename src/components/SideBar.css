@@ -1,0 +1,24 @@
+.SideBar {
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.SideBarIcon {
+    min-width: 50px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.SideBarIcon:hover {
+    background-color: #ccc;
+}
+
+.SideBarIconLabel {
+    font-size: 10px;
+}
